@@ -5,11 +5,11 @@ require 'cesium/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = 'cesium'
+  s.name        = 'cesium-rails'
   s.version     = Cesium::VERSION
-  s.authors     = ['Bogumil Wrona']
-  s.email       = %w(b.wrona@cre8newmedia.com)
-  s.homepage    = 'http://bogwro.github.com/cesium'
+  s.authors     = ['Bogumil Wrona', 'Emile Victor']
+  s.email       = %w(b.wrona@cre8newmedia.com emilevictor@gmail.com)
+  s.homepage    = 'https://github.com/emilevictor/cesium'
   s.summary     = "WebGL Virtual Globe and Map Engine as Rails' Engine"
   s.description = "WebGL Virtual Globe and Map Engine as Rails' Engine"
   s.license     = 'ALv2'
